@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> ICT Knowledge Ltd. </title>
+  <!-- custom style css -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- font awesome fonts -->
+  <script src="https://kit.fontawesome.com/b342920f8f.js" crossorigin="anonymous"></script>
+
+  <!-- custom styles -->
+  <style>
+    body {
+      font-family: 'Work Sans', sans-serif;
+    }
+
+    .gradient{
+      background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72);
+    }
+    .navbar li a:hover{
+    background-color: transparent;
+    color: #50C878!important;
+
+  };
+  
+  </style>
+
+</head>
+
+<body>
+  <!-- bg-gradient-to-r from-purple-800 45% via-purple-600 50% to-emerald-600 45% --> 
+  <!-- header section --> 
+  <header class="bg-gradient-to-r from-[#004d7a] 45%  to-emerald-800 45%">
+    <div class="lg:container mx-auto">
+      
+      <div class="navbar text-slate-200">
+        <div class="navbar-start">
+          <div class="flex items-center gap-4 ">
+             <div> <img src="./images/logo.png" alt="" class="max-h-16 drop-shadow-2xl"></div> 
+            <h1 class="text-2xl font-semibold text-white">ICT Knowledge</h1>
+        </div>
+          
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="navbar menu menu-horizontal px-1 font-medium">
+            <li><a>Home</a></li>
+            <li><a>Service</a></li>
+            <li><a>Product</a></li>
+            <li><a>Hosting</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end text-xl flex lg:gap-4">
+            <i class="fa-brands fa-facebook  text-slate-300 hover:text-blue-600"></i>
+            <i class="fa-brands fa-youtube text-slate-300 hover:text-red-600"></i>
+        </div>
+      </div>
+
+      <div class="hero min-h-screen mx-auto text-slate-100">
+        <div class="hero-content flex-col lg:flex-row-reverse mx-8">
+          <img src="./images/banner-final.gif" class="lg:max-w-lg rounded-lg shadow-2xl" />
+          <div>
+            <h1 class="text-5xl font-bold"> Choice Your Creative Application</h1>
+            <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+            <button class="btn btn-primary">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <main class="container mx-auto">
+    <section class=" mx-auto justify-center">
+      <div id="category-button" class="flex justify-center text-center py-7">
+
+       
+
+      </div>
+    </section>
+
+
+    <!-- <section class="mx-10 mt-10 lg:mx-10">
+      <div id="blog-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+      </div>
+    </section> -->
+
+
+  </main>
+
+  <script src="js/script.js"></script>
+  <script src="js/blog.js"></script>
+
+
+</body>
+</html>

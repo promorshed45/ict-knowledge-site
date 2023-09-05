@@ -1,0 +1,9 @@
+
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+;
+.navbar li a:hover{
+    background-color: transparent;
+    color: gray!important;
+  };

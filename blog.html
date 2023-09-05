@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> 86-PHero-tube-ass-6 </title>
+
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- custom styles -->
+  <style>
+    body {
+      font-family: 'Work Sans', sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- header section -->
+  <header>
+    <div class="lg:container mx-auto py-5 lg:py-10 bg-base-100">
+      <div class="flex flex-col lg:flex-row items-center justify-evenly">
+        <div onclick="reload()" class="flex items-center mb-4 cursor-pointer">
+          <img src="./icon/Logo.png" alt="">
+        </div>
+       
+        <div onclick="reload()" class="py-5">
+          <button  class="btn normal-case bg-rose-500 rounded-md text-white hover:bg-gray-400">Home</button>
+        </div>
+      </div>
+    </div>
+    <div class="border divide-x-1 mx-10 border-gray-400">
+    </div>
+  </header>
+
+
+  <main class="container lg:py-10 px-10 lg:px-52  mx-auto">
+
+    <section class="mx-auto justify-center">
+      <h1 class="text-3xl lg:text-4xl font-bold mb-5"> var, let, and const </h1>
+      <p> আমরা var দিয়ে  কোন ভ্যারিয়েবল declare করলে সেটা পুনরায় re-declare এবং re-assign করা যাবে । তবে let দিয়ে ভ্যারিয়েবল declare করলে সেইটা re-assign করা যাবে কিন্ত re-declare করা যাবে না এবং const দিয়ে ভ্যারিয়েবল declare করলে সেইটা re-declare এবং re-assign কোনটি করা যাবে না। </p>
+    </section>
+
+    <section class="mx-auto justify-center mt-10">
+      <h1 class="text-4xl font-bold mb-5"> null and undefined </h1>
+      <h2 class="text-2xl font-semibold mb-2"> null: </h2>
+      <p>
+        জাভাস্ক্রীপ এ null এবং undefined এই দুটি datatype Operator এর মধ্যে পড়ে। null বলতে আসলে জাভাস্ক্রীপে কোন কিছুর অনুপস্থিতি বোঝায়। জাভাস্ক্রিপ এ নালকে একটি অবজেক্ট হিসেবে বিবেচনা করা হয়। জাভাস্ক্রীপে একটি variable কে আনডিফাইন্ড হিসেবে ডিক্লেয়ার করেও খালি একটি অবজেক্ট তৈরী করা যায়।
+      </p>
+
+      <h2 class="text-2xl font-semibold mt-5 mb-2">undefined </h2>
+        জাভাস্ক্রিপ্টে undefined হলো একটি variable যার কোনো value থাকে না।  একটি ভেরিযবলকে আনডিফাইন্ড ডিক্লেয়ার করার মাধ্যমেও ভেরিযবলের ভেলু খালি করা যায়। 
+      </p>
+
+      <p class="mt-5 mb-2">আনডিফাইন্ড এবং নালের মধ্যে পার্থক্য: <br>
+        typeof undefined // undefined <br>
+        typeof null // object <br>
+        null === undefined // false <br>
+        null == undefined // true</p>
+
+    </section>
+
+    <section class="mx-auto justify-center mt-10">
+      <h1 class="text-4xl font-bold mb-5"> REST API </h1>
+      <h2 class="text-2xl font-semibold mb-2"> API এর পূর্ণরূপ:  </h2>
+      <h4>
+        API - Application Programming Interface
+      </h4>
+      <p class="mt-2">API ব্যবহার করে আমরা অন্য কোন সাইট হতে আমাদের সাইটে বিভিন্ন তথ্য নিয়ে আসতে পারি। </p>
+
+      <h2 class="text-2xl font-semibold  mt-6 mb-3"> Rest API এর পূর্ণরূপ:  </h2>
+      <p>
+        Rest API - Representational State Transfer Application Programming Interface
+      </p>
+
+      <p class="mt-2">Rest API প্রত্যেকটি URL কে কিছু অবজেক্টকে রিপ্রেজেন্ট করে । রেস্ট এর সবচেয়ে ছোট সংঙ্গা এর নামেই দেয়া আছে, “Representational State Transfer” অর্থাৎ এটি কোন কিছুর অবস্থা বা স্টেট একটি রিপ্রেজেন্টেশন এর মাধ্যমে ক্লায়েন্ট টু সার্ভার এবং সার্ভার টু ক্লায়েন্টে ট্রান্সফার করে । রেস্ট এপিআই ডেভেলপমেন্ট এর কোন স্ট্যান্ডার্ড নয়, এটি নেটওয়ার্ক এ্যাপ্লিকেশন ডিজাইনের জন্য আর্কিটেকচারাল স্টাইল ।</p>
+
+    </section>
+
+    
+
+  </main>
+
+  <script src="js/script.js"></script>
+  <script src="js/blog.js"></script>
+
+
+</body>
+
+</html>
